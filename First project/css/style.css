@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+@font-face {
+	font-family: Charm-bold;
+	src: local("Charm-Bold"),
+	    url(Charm-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Charm-regular;
+	src: local("Charm-Regular"),
+	    url(Charm-Regular.ttf);
+	font-weight: 400;
+}
+
+header {
+	margin-bottom: 20px;
+}
+main {
+	margin-bottom: 20px;
+	font-family: 'Charm-regular', cursive;
+}
+h1 {
+	text-align: center;
+}
+.h1-span {
+	color: blue;
+	font-size: 40px;
+	font-family: 'Charm-bold', cursive;
+}
+p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+img {
+	display: block;
+	margin: auto;
+	margin-top: 30px;	
+}
+table {
+	margin: auto;
+	margin-top: 30px;
+}
+table, td, tr, th {
+	color: #5678f6;
+	border: 3px green solid;
+	border-collapse: collapse;
+	padding: 10px;
+}
