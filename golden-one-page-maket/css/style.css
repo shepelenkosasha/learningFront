@@ -1,0 +1,143 @@
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+.header__nav {
+	position: absolute;
+	width: 100%;	
+	top: 20px;
+	left: 0;
+	right: 0;
+	padding: 20px 0;
+}
+
+.header__logo {
+	float: left;
+	width: 79px;
+	height: 28px;
+}
+
+.header__menu {	
+	float: right;
+	padding-top: 5px;
+	list-style-type: none;
+}
+
+.header__menu__li {
+	float: left;
+	margin-right: 40px;
+}
+
+.header__menu__li:last-child {
+	margin-right: 0;
+}
+
+.header__menu__links {
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+.header__menu__links:hover {
+	color: #bfaa3d;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.header__content {
+	background: url(../img/bg-header.jpg) no-repeat;
+	text-align: center;
+	padding-top: 300px;
+}
+
+.header__h3 {
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 40px;
+}
+
+.header__h1 {
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 75px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.header__btn {
+	background-color: #fed136;
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 18px 28px;
+	border-radius: 3px;
+	border: none;
+	margin-bottom: 160px;
+}
+
+.header__btn:hover {
+	color: #000;
+	background-color: #d1af04;
+}
+
+.main__services {
+	text-align: center;
+}
+
+.main__services__title {
+	margin-top: 120px;
+	color: #222222;
+	font-family: "Arial";
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main__services__p {
+	margin-top: 20px;
+	color: #777777;
+	font-family: "Times New Roman PSMT";
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.main__services__wrapper {
+	display: flex;
+	margin-top: 80px;
+}
+
+.wrapper__img {
+	margin-bottom: 25px;
+}
+
+.wrapper__h3 {
+	color: #222222;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.wrapper__p {
+	color: #777777;
+	font-family: "Times New Roman PSMT";
+	font-size: 18px;
+}
+
+.wrapper__e-commerse,
+.wrapper__responsive {
+	margin-right: 60px;
+}
