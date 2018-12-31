@@ -93,11 +93,13 @@
 	background-color: #d1af04;
 }
 
-.main__services {
+.main__services,
+.main__portfolio,
+.main__about-us {
 	text-align: center;
 }
 
-.main__services__title {
+.main__title {
 	margin-top: 120px;
 	color: #222222;
 	font-family: "Arial";
@@ -106,7 +108,7 @@
 	text-transform: uppercase;
 }
 
-.main__services__p {
+.main__p {
 	margin-top: 20px;
 	color: #777777;
 	font-family: "Times New Roman PSMT";
@@ -141,3 +143,28 @@
 .wrapper__responsive {
 	margin-right: 60px;
 }
+
+.portfolio__title {
+	margin-top: 230px;
+}
+
+.main__portfolio__wrapper {
+	margin-top: 75px;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 400px 400px;
+	grid-gap: 80px 35px;
+}
+
+.portfolio__wrapper__h3 {
+	margin-top: 30px;
+}
+
+.portfolio__wrapper__p {
+	margin-top: 5px;
+}
+
+.about-us__title {
+	margin-top: 265px;
+}
+
