@@ -1,0 +1,128 @@
+header {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+	background-color: grey;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+main {
+	background-color: yellow;
+	margin-bottom: 30px;
+	padding: 20px;
+}
+
+.content {
+	display: flex;
+	background-color: blue;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+	flex-flow: row wrap;
+}
+
+div p {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.item1 {
+	display: flex;
+	flex: 1 1 33%;
+	justify-content: center;
+	background-color: #e8929f;
+}
+
+.item2 {
+	display: flex;
+	flex: 1 1 33%;
+	justify-content: center;
+	background-color: #9e34e5;
+}
+
+.item3 {
+	display: flex;
+	flex: 1 1 33%;
+	justify-content: center;
+	background-color: #ba2727;
+}
+
+.item4 {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: center;
+	background-color: #2cdddd;
+}
+
+.item5 {
+	display: flex;
+	flex: 1 1 50%;
+	justify-content: center;
+	background-color: #5984f2;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+footer p {
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+
+	.item1 {
+		flex: 1 1 50%;
+		order: 1;
+	}
+	.item2 {
+		flex: 1 1 50%;
+		order: 2;
+	}
+	.item3 {
+		flex: 1 1 50%;
+		order: 3;
+	}
+	.item4 {
+		flex: 1 1 100%;
+		order: 5;
+	}
+	.item5 {
+		flex: 1 1 50%;
+		order: 4;
+	}
+	
+}
+
+@media screen and (max-width: 768px) {
+	
+	.item1 {
+		flex: 1 1 100%;
+		order: 1;
+	}
+	.item2 {
+		flex: 1 1 100%;
+		order: 2;
+	}
+	.item3 {
+		flex: 1 1 100%;
+		order: 3;
+	}
+	.item4 {
+		flex: 1 1 100%;
+		order: 4;
+	}
+	.item5 {
+		flex: 1 1 100%;
+		order: 5;
+	}
+	
+}
