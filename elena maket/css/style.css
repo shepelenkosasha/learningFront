@@ -98,7 +98,11 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
-	
+
+	.container {
+		width: 400px;
+	}
+
 	.header__content__btn {
 		margin-bottom: 200px;
 	}
